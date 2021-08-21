@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom style */
+
+body {
+    font-family: 'Karla', sans-serif;
+    line-height: 1.2;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+
+.heading {
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin:20px auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+.proinsure  {
+    color: rgb(44,38,65);
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+.proinsure-container {
+    width: 50%;
+}
+.proinsure-container a {
+    text-decoration: none;
+}
+.top-nav-items {
+    text-transform: uppercase;
+    font-size: 17px;
+    text-decoration: none;
+    color: gray;
+    margin-top: 30px;
+    width: 50%;
+}
+.top-nav-items a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.view-plans {
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+/* hero section */
+
+.hero {
+    background-color:rgb(44,38,65);
+}
+.text {
+    width: 40%;
+}
+.image {
+    width: 40%;
+}
+h1 {
+    font-family:'DM Serif Display', serif;
+    font-size: 48px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.hero hr {
+    width: 200px;
+    margin-left: 0;
+    margin: 30px 0 30px 0;
+}
+.hero p {
+    color: white;
+    word-spacing: -1px;
+    padding: 20px 30px 20px 0;
+}
+.hero button {
+    border: 1px solid white;
+    color: white;
+    background-color:rgb(44,38,65);
+    margin-top: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.hero-image {
+    position: absolute;
+    top: 180px;
+    right: 130px;
+    width: 400px;
+}
+.hero-image img {
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+.hero-text {
+    padding: 20px;
+}
+
+/* section insure */
+
+.insure {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.insure p {
+    font-size: 20px ;
+    word-spacing: -1px;
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 20px 0;
+    font-weight: 700;
+}
+.insure img {
+    width: 400px;
+    height: 400px;
+}
+.insure-image {
+    text-align: center;
+    width: 40%;
+
+}
+.insure button {
+    padding: 10px;
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.insure-text {
+   width: 40%;
+}
+
+/* different section */
+
+.different {
+    margin-bottom: 30px;
+}
+.different hr {
+    width: 200px;
+    margin-left: 0;
+}
+.col {
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    font-size: 24   px;
+    padding: 20px 0;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', serif;
+}
+i {
+    width: 50px;
+    border-radius: 50%;
+}
+.column {
+    width: 30%;
+}
+
+/* section find */
+
+.find {
+    background-color:rgb(44,38,65) ;
+}
+.find h2 {
+    padding: 50px 30px;
+    color: white;
+    line-height: 2;
+    text-transform: none;
+}
+.find button {
+    background-color: rgb(44,38,65);
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+/* footer */
+
+
+.footer {
+    display: flex;
+   
+}
+.social-media-container {
+    width: 50%;
+    text-align: end;
+    font-size: 25px;
+}
+.bottom-nav-items {
+    text-align: center;
+}
+.bottom-nav-items a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+small {
+    padding: 20px;
+    background-color: rgb(44,38,65);
+    text-align: center;
+    display: block;
+    color: white;
+    margin-top: 30px;
+}
+.fa-cogs {
+    color: white;
+    background-color: rgb(139,181,240);
+    padding: 10px;
+    display: inline;
+}
